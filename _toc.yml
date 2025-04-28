@@ -1,11 +1,10 @@
-chapters:
-- title: Pandas Tips Collection
-  url: https://raw.githubusercontent.com/abay-qkt/pandas-tips-collection/main/pandas_tips_collection.ipynb
-- title: Matplotlib Seaborn Tips Collection
-  url: https://raw.githubusercontent.com/abay-qkt/python-visualization-tips/main/matplotlib_seaborn_tips_collection.ipynb
-- title: Plotly Tips Collection
-  url: https://raw.githubusercontent.com/abay-qkt/plotly-tips-collection/main/plotly_tips_collection.ipynb
-- title: Lightgbm Handbook
-  url: https://raw.githubusercontent.com/abay-qkt/lightgbm-handbook/main/LightGBM_handbook.ipynb
 format: jb-book
 root: my-intro
+
+chapters:
+- file: notebooks/pandas_tips_collection
+  title: Pandas Tips Collection
+- file: notebooks/matplotlib_seaborn_tips_collection
+  title: Matplotlib Seaborn Tips Collection
+- file: notebooks/plotly_tips_collection
+  title: Plotly Tips Collection
