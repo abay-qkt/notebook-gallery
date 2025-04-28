@@ -1,18 +1,16 @@
-# .github/workflows/deploy.yml
 name: deploy-book
 
 on:
   push:
     branches:
-      - main  
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,6 +20,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U jupyter-book ghp-import
+
+      - name: Download notebooks
+        run: |
+          mkdir notebooks
+          curl -L -o notebooks/pandas_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/pandas-tips-collection/main/pandas_tips_collection.ipynb
+          curl -L -o notebooks/matplotlib_seaborn_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/python-visualization-tips/main/matplotlib_seaborn_tips_collection.ipynb
+          curl -L -o notebooks/plotly_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/plotly-tips-collection/main/plotly_tips_collection.ipynb
 
       - name: Build the book
         run: |
