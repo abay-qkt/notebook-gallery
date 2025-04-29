@@ -8,3 +8,5 @@ chapters:
   title: Matplotlib Seaborn Tips Collection
 - file: notebooks/plotly_tips_collection
   title: Plotly Tips Collection
+- file: notebooks/LightGBM_handbook
+  title: LightGBM Handbook
