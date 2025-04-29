@@ -28,7 +28,7 @@ jobs:
           curl -L -o notebooks/pandas_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/pandas-tips-collection/main/pandas_tips_collection.ipynb
           curl -L -o notebooks/matplotlib_seaborn_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/python-visualization-tips/main/matplotlib_seaborn_tips_collection.ipynb
           curl -L -o notebooks/plotly_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/plotly-tips-collection/main/plotly_tips_collection.ipynb
-          curl -L -o notebooks/plotly_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/lightgbm-handbook/refs/heads/main/LightGBM_handbook.ipynb
+          curl -L -o notebooks/LightGBM_handbook.ipynb https://raw.githubusercontent.com/abay-qkt/lightgbm-handbook/refs/heads/main/LightGBM_handbook.ipynb
 
       - name: Build the book
         run: |
