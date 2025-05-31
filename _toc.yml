@@ -10,3 +10,5 @@ chapters:
   title: Plotly Tips Collection
 - file: notebooks/LightGBM_handbook
   title: LightGBM Handbook
+- file: notebooks/shap_handbook
+  title: SHAP Handbook
