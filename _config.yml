@@ -1,7 +1,7 @@
 # _config.yml
 title: "Colabで試せるPythonライブラリTips集"
 author: "abay"
-logo: null                # ロゴ画像（なければnull）
+logo: _static/notebookgallerylogo.png
 only_build_toc_files: true # _toc.ymlで指定したファイルだけビルド
 execute:
   execute_notebooks: "off"
