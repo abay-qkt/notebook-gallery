@@ -3,12 +3,12 @@ root: my-intro
 
 chapters:
 - file: notebooks/pandas_tips_collection
-  title: Pandas Tips Collection
+  title: Pandas
 - file: notebooks/matplotlib_seaborn_tips_collection
-  title: Matplotlib Seaborn Tips Collection
+  title: Matplotlib Seaborn
 - file: notebooks/plotly_tips_collection
-  title: Plotly Tips Collection
+  title: Plotly
 - file: notebooks/LightGBM_handbook
-  title: LightGBM Handbook
+  title: LightGBM
 - file: notebooks/shap_handbook
-  title: SHAP Handbook
+  title: SHAP
