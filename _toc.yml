@@ -13,5 +13,5 @@ chapters:
   - file: notebooks/shap_handbook
     title: SHAP
   - file: notebooks/geospatial_tips_collection
-    title: 地理空間(主にGeoPandas)
+    title: GeoPandas
 
