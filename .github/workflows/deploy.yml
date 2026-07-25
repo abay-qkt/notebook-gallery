@@ -34,16 +34,7 @@ jobs:
 
       - name: Build the book
         run: |
-          jupyter-book build .
-
-      - name: Check generated files
-        run: |
-          echo "=== Current directory ==="
-          ls -la
-          echo "=== _build directory ==="
-          ls -la _build/ || true
-          echo "=== Find all html files ==="
-          find . -name "index.html"
+          jupyter-book build --html
 
       - name: Deploy to GitHub Pages
         run: |
