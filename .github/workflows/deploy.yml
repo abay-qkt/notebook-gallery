@@ -30,6 +30,7 @@ jobs:
           curl -L -o notebooks/plotly_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/plotly-tips-collection/main/plotly_tips_collection.ipynb
           curl -L -o notebooks/LightGBM_handbook.ipynb https://raw.githubusercontent.com/abay-qkt/lightgbm-handbook/refs/heads/main/LightGBM_handbook.ipynb
           curl -L -o notebooks/shap_handbook.ipynb https://raw.githubusercontent.com/abay-qkt/shap-handbook/refs/heads/main/shap_handbook.ipynb
+          curl -L -o notebooks/geospatial_tips_collection.ipynb https://raw.githubusercontent.com/abay-qkt/geospatial-tips-collection/refs/heads/main/geospatial_tips_collection.ipynb
 
       - name: Build the book
         run: |
